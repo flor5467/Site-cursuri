@@ -1,0 +1,58 @@
+div {
+	box-sizing: border-box;
+	float: left;
+}
+
+#maincontent {
+	height: 70%;
+	width: 70%;
+	text-align: justify;	
+	
+}
+#testimg6 {
+	height: 250px;
+	width: 300px;
+	margin-right: 5px;
+	
+}
+#testimg7 {
+	height: 250px;
+	width: 300px;
+	margin-right: 5px;
+	
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	
+}	
+@media (max-width: 750px) {
+	
+	#header {
+		width: 35%;
+	}
+	
+	#content {
+		width: 60%;	
+	}
+	
+	#footer {	
+		width: 35%;
+	}
+}
+
+@media (max-width: 500px) {
+	
+	#header, #content, #footer {
+		width: 100%;
+	}
+	
+}
+
+@media (max-width: 350px) {
+	
+	#header, #footer {
+		width: 100%;
+	}
+}

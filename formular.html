@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Formular de inscriere</title>
+		<link rel="stylesheet" href="main.css">
+		
+	</head>
+	
+	<body>
+	
+		<p>	
+		<a href="index.html">Prima pagina</a> |	
+		<a href="test.html">Pictura</a> |
+		<a href="test2.html">Muzica</a>	|
+		<a href="test3.html">Limbi Straine</a></p>
+		
+	
+		<p>Pentru contact si inscriere la cursurile noastre va rugam sa 
+			completati formularul de mai jos.<br>
+			Noi va vom contacta in cel mai scurt timp!</p>
+			
+			<br>
+			
+			
+			<p> Cursul ales :<br>
+			
+			
+			<select id="curs">
+			<option value="all" selected>Toate Cursurile</option>
+			<option value="pictura">Pictura</option>
+			<option value="muzica">Muzica</option>
+			<option value="engleza">Limbi straine</option>
+			</select>
+			
+			<select id="profesoara">
+			<option value="all" selected>Profesori</option>
+			<option value="pictura">Eliza Minu</option>
+			<option value="muzica">Mihaela Dascalu</option>
+			<option value="muzica">Viorica Lipan</option>	
+			<option value="engleza">Doru Lupu</option>	
+		</select> 
+		
+			<a href="#" id="filtrare">Filtrare</a>
+			
+			<hr>
+		
+		<div id="content">
+		
+			<div data-curs="pictura" data-profesoara="Eliza Minu">
+				*** Curs: Pictura<br>
+				*** Prof: Eliza Minu<br>
+		
+				<hr>
+			</div>
+			
+			<div data-curs="muzica" data-profesoara="Mihaela Dascalu">
+				*** Curs: Muzica<br>
+				*** Prof: Mihaela Dascalu<br>
+				<hr>
+			</div>
+			
+			<div data-curs="muzica" data-profesoara="Viorica Lipan">
+				*** Curs: Muzica<br>
+				*** Prof: Viorica Lipan<br>
+				<hr>
+			</div>
+			
+			<div data-curs="engleza" data-profesoara="Doru Lupu">
+				*** Curs: Engleza<br>
+				*** Prof: Doru Lupu<br>
+				<hr>
+			</div>
+			<div data-marca="pictura" data-culoare="Eliza Minu">
+				*** Curs: Pictura<br>
+				*** Prof: Eliza Minu<br>
+	
+				<hr>
+			</div>
+		
+		</div>
+		
+		<script src="filtrufl.js"></script>
+			
+		</p>
+		
+		<p>
+		
+		<form id="testform">
+			
+			<br><br>
+			
+			<br>
+			
+			<br>
+			
+			<br>
+	
+			Nume<br>
+			<input type="text" name="name" required>
+			
+			<br><br>
+			
+			Prenume<br>
+			<input type="text" name="firstname">
+			
+			<br><br>
+			
+			Email<br>
+			<input type="email" name="email" placeholder="ex: 1@1.com">
+			
+			<br><br>
+			
+			Telefon<br>			
+			<input type="number" name="telefon" value="0" required>
+			
+			<br><br>
+			
+			Descriere<br>
+			<textarea name="descriere"></textarea>
+			
+			<br><br>
+			
+			<input type="submit" value="Submit">
+			
+			<br><br>
+	
+			</p>
+	</form>
+	
+	</body>
+	
+</html>	
